@@ -1,6 +1,8 @@
 module.exports = {
-    apps: [{
-        name: "ActionsHasura",
-        script: "./app.js"
-    }]
-}
+    apps: [
+        {
+            name: "ActionsHasura",
+            script: "./src/app.js",
+        },
+    ],
+};
