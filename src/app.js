@@ -1,8 +1,10 @@
 const express = require("express");
 const axios = require("axios");
+const dotenv = require("dotenv");
 
 const app = express();
 app.use(express.json());
+dotenv.config();
 
 const PORT = process.env.PORT;
 const KEYCLOAK_HOST = process.env.KEYCLOAK_HOST;
